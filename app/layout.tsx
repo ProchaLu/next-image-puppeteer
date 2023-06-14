@@ -29,6 +29,12 @@ export default function RootLayout(props: Props) {
               </Link>{' '}
               <Link href="/optimized-avif" data-test-id="optimized-avif-link">
                 Optimized-AVIF
+              </Link>{' '}
+              <Link
+                href="/unoptimized-props-avif"
+                data-test-id="unoptimized-props-avif-link"
+              >
+                Unoptimized-props-AVIF
               </Link>
             </div>
           </nav>

@@ -5,7 +5,6 @@ export default function Page() {
     <main>
       <h1>Optimized JPG</h1>
       <Image
-        unoptimized={true}
         data-test-id="optimized-jpg"
         src="/images/image-opt.jpg"
         alt="Optimized JPG"

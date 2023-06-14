@@ -9,24 +9,33 @@ export default function Home() {
         data-test-id="unoptimized-jpeg"
         src="/images/image.jpeg"
         alt="1mb image"
-        width={500}
-        height={500}
+        width={300}
+        height={300}
       />
       <h2>Image JPG 100KB</h2>
       <Image
         data-test-id="optimized-jpg"
         src="/images/image-opt.jpg"
         alt="1mb image"
-        width={500}
-        height={500}
+        width={300}
+        height={300}
       />
       <h2>Image AVIF 21KB</h2>
       <Image
         data-test-id="optimized-avif"
         src="/images/image-opt-avif.avif"
         alt="1mb image"
-        width={500}
-        height={500}
+        width={300}
+        height={300}
+      />
+      <h2>Image AVIF 21KB with unoptimized prop</h2>
+      <Image
+        unoptimized={true}
+        data-test-id="unoptimized-props-avif"
+        src="/images/image-opt-avif.avif"
+        alt="1mb image"
+        width={300}
+        height={300}
       />
     </main>
   );
