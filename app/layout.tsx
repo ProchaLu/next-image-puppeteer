@@ -25,10 +25,16 @@ export default function RootLayout(props: Props) {
                 Unoptimized-JPEG
               </Link>{' '}
               <Link href="/optimized-jpg" data-test-id="optimized-jpg-link">
-                Optimized-JPEG
+                Optimized-JPG
               </Link>{' '}
               <Link href="/optimized-avif" data-test-id="optimized-avif-link">
                 Optimized-AVIF
+              </Link>{' '}
+              <Link
+                href="/unoptimized-props-jpg"
+                data-test-id="unoptimized-props-jpg-link"
+              >
+                Unoptimized-props-JPG
               </Link>{' '}
               <Link
                 href="/unoptimized-props-avif"
